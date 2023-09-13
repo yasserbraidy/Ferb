@@ -21,9 +21,26 @@ body{
     height: 250px;
     width: 60px;
     background-color: #fce2c4;
-    border: 4px solid #ffa945;
+    border: 4px solid #ffa945;   
     border-bottom: none;
     left: 220px;
     top: 100px;
     transform: rotate(4deg);
+    z-index: 2;
+}
+
+/* ear */
+.face::after{
+    content: "";
+    position: absolute;
+    background-color: #fce2c4;
+    height: 24px;
+    width: 24px;
+    top: 80px;
+    right: -25px;
+    border-radius: 50%;
+    border: solid 4px #ffa945;
+    border-left: none;
+    border-top: none;
+    transform: rotate(-45deg);
 }
