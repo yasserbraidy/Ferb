@@ -95,6 +95,20 @@ body{
     left: 200px;
 }
 
+.eye1:before{
+    position: absolute;
+    content:"";
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 3px black;
+    border-bottom: solid 6px black;
+    top:12px;
+    left:12px;
+    transform: rotate(20deg);
+}
+
 .eye2{
     position:relative;
     background-color: white;
