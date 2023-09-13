@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(0, 0, 0, 0.782);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 16px 16px 8px rgba(0, 0, 0, 0.419);
+}
