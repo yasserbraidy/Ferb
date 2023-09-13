@@ -26,7 +26,6 @@ body{
     left: 220px;
     top: 100px;
     transform: rotate(4deg);
-    z-index: 2;
 }
 
 /* ear */
@@ -59,4 +58,28 @@ body{
     border-bottom: solid 4px #ffa945;
     border-bottom-left-radius: 10px;
     transform: skew(-40deg);
+}
+
+/* nose */
+.nose{
+    position: relative;
+    height: 50px;
+    width: 50px ;
+    background-color: #fce2c4;
+    transform: rotate(4deg);
+    left: 173px;
+    top: -90px;
+    border: solid 4px  #ffa945;
+    border-right: none;
+    z-index: 1;
+}
+.nose::after{
+    content: "";
+    background-color: #fce2c4;
+    border-bottom: solid 4px  #ffa945;
+    height: 0px;
+    width: 10px ;
+    position: absolute;
+    top: -4px;
+    right: -10px;
 }
