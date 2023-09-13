@@ -6,7 +6,7 @@ body{
 
 .container{
     position: absolute;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.219);
     height: 500px;
     width: 500px;
     top: 50%;
@@ -82,4 +82,15 @@ body{
     position: absolute;
     top: -4px;
     right: -10px;
+}
+
+.eye1{
+    position:relative;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid black 4px;
+    top: -185px;
+    left: 200px;
 }
